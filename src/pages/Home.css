@@ -1,0 +1,17 @@
+/* Home.css */
+.home {
+    padding-top: 2rem;
+  }
+  
+  .code-animation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color: #00ff00;
+    animation: fadeInOut 3s infinite;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
